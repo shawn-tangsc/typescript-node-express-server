@@ -1,0 +1,32 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "rootDir":"./src",
+      "outDir":"./dist",
+      "strict": true,
+      "sourceMap": true,
+      "importHelpers": true,
+      "moduleResolution": "node",
+      "removeComments": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata":true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [
+          "src/*"
+        ]
+      }
+    },
+    "include": [
+      "src/**/*.ts",
+      "tests/**/*.ts",
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
